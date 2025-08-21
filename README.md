@@ -41,27 +41,27 @@ This project is designed to help organizations identify trends, optimize sales s
 5. **Develop Reports:** Create visuals including charts, tables, maps, and cards.
 6. **Implement DAX Calculations:**  
    Example DAX measures:
-   -```DAX
-   -Sales = SUM(Sales_Data[Sales])
-   -Sales PY = CALCULATE([Sales], SAMEPERIODLASTYEAR(DateTable[Date]))
-   -Sales vs PY = [Sales] - [Sales PY]
-   -Sales vs PY % = DIVIDE([Sales vs PY], [Sales], 0)
-   -Profit = SUM(Sales_Data[Profit])
-   -Profit LY = CALCULATE([Profit], SAMEPERIODLASTYEAR(DateTable[Date]))
-   -Profit vs LY = [Profit] - [Profit LY]
-   -Profit vs LY % = [Profit vs LY] / [Profit]
-   -Profit Margin = DIVIDE([Profit], [Sales], 0)
+   - ```DAX
+   - Sales = SUM(Sales_Data[Sales])
+   - Sales PY = CALCULATE([Sales], SAMEPERIODLASTYEAR(DateTable[Date]))
+   - Sales vs PY = [Sales] - [Sales PY]
+   - Sales vs PY % = DIVIDE([Sales vs PY], [Sales], 0)
+   - Profit = SUM(Sales_Data[Profit])
+   - Profit LY = CALCULATE([Profit], SAMEPERIODLASTYEAR(DateTable[Date]))
+   - Profit vs LY = [Profit] - [Profit LY]
+   - Profit vs LY % = [Profit vs LY] / [Profit]
+   - Profit Margin = DIVIDE([Profit], [Sales], 0)
 
 ## Insights Derived
--Sales decreased by over 10% in 2019.
--Drop in sales for the top 7 products.
--Four customers contributed to declining sales.
--Export channel shows higher profit margins.
+- Sales decreased by over 10% in 2019.
+- Drop in sales for the top 7 products.
+- Four customers contributed to declining sales.
+- Export channel shows higher profit margins.
 
 ## Files in the Repository
 
--salesdash.pbix – Power BI project file
--report.xlsx – Dataset used for the dashboard
+- salesdash.pbix – Power BI project file
+- report.xlsx – Dataset used for the dashboard
 
 ## Conclusion
 This project demonstrates the power of Power BI in transforming raw data into actionable insights. Users can interactively explore sales performance, identify growth opportunities, and make informed business decisions.
